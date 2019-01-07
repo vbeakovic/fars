@@ -19,10 +19,10 @@
 #' }
 #'
 fars_read <- function(filename) {
-        if (!file.exists(filename))
+        if (!file.exists(system.file("extdata", filename, package = "fars")))
                 stop("file '", filename, "' does not exist")
         data <- suppressMessages({
-                readr::read_csv(filename, progress = FALSE)
+                readr::read_csv(system.file("extdata", filename, package = "fars"), progress = FALSE)
         })
         dplyr::tbl_df(data)
 }
