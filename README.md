@@ -1,6 +1,16 @@
 [![Travis build status](https://travis-ci.org/vbeakovic/fars.svg?branch=master)](https://travis-ci.org/vbeakovic/fars)
 
 
+# R Package for exploring NHTSA's FARS data
+
+NHTSA - US National Highway Traffic Safety Administration
+FARS - Fatality Analysis Reporting System
+
+The package cointains data and functions to explore data about fatal injuries suffered in motor veichle trafic crashes.
+It was developed as an assignment to complete the "Building R Packages" course that is part of the Mastering Software Development in R (a JHU specialization on Coursera).
+
+
+
 The goal of the README.md is to answer the following questions about your package:
 
     Why should I use it?
