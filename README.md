@@ -11,12 +11,18 @@ It was developed as an assignment to complete the "Building R Packages" course t
 
 
 
-The goal of the README.md is to answer the following questions about your package:
+# How to install it
 
-    Why should I use it?
-    How do I use it?
-    How do I get it?
+To install the stable CRAN version:
 
+    install.packages("shinyjs")
+
+To install the latest development version from GitHub:
+
+    install.packages("devtools")
+    devtools::install_github("vbeakovic/fars")
+    
+    
 On GitHub, the README.md will be rendered as HTML and displayed on the repository home page.
 
 I normally structure my README as follows:
