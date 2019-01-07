@@ -105,12 +105,10 @@ fars_read_years <- function(years) {
 #' @importFrom magrittr %>%
 #'
 #' @examples
-#' \dontrun{
 #' fars_summarize_years(2013)
 #' fars_summarize_years("2013")
 #' fars_summarize_years(c(2013, 2014))
 #' fars_summarize_years(c("2013", "2014"))
-#' }
 #'
 #' @export
 fars_summarize_years <- function(years) {
@@ -137,10 +135,8 @@ fars_summarize_years <- function(years) {
 #' @importFrom rlang .data
 #'
 #' @examples
-#' \dontrun{
 #' fars_map_state(1, 2014)
 #' fars_map_state("28", "2015")
-#' }
 #'
 #' @export
 fars_map_state <- function(state.num, year) {

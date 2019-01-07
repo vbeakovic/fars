@@ -19,9 +19,7 @@ This function returns a map of the selected state with a point drawn
 This is a function that vizualizes accident data on a map of the selected state.
 }
 \examples{
-\dontrun{
 fars_map_state(1, 2014)
 fars_map_state("28", "2015")
-}
 
 }
