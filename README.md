@@ -29,10 +29,6 @@ For more details check the package vignette.
 
 ## How to install it
 
-To install the stable CRAN version:
-
-    install.packages("shinyjs")
-
 To install the latest development version from GitHub:
 
     install.packages("devtools")
