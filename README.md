@@ -1,3 +1,6 @@
+[![Travis build status](https://travis-ci.org/vbeakovic/fars.svg?branch=master)](https://travis-ci.org/vbeakovic/fars)
+
+
 The goal of the README.md is to answer the following questions about your package:
 
     Why should I use it?
