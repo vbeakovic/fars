@@ -1,0 +1,38 @@
+---
+title: "Exploring NHTSA's FARS data"
+author: "Valter Beakovic"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+## The data
+
+The data comes in raw format (*.bz2 files) and the functions access them in the background. The files can be found in the inst/extdata folder of the package.
+
+## Using the summary function
+
+The package has a fars_summarize_years() function which calculates the number of accident per month for the year(s) given as argument to the function.
+Two examples
+
+```{r}
+fars::fars_summarize_years(2013)
+fars::fars_summarize_years(c(2013, 2014))
+```
+
+
+## Using the map function
+
+The package has a fars_map_state() function that draws the the map of the selected states with loacations of the accidents.
+Example
+
+```{r}
+fars::fars_map_state(1, 2013)
+```
+
+## State codes
+
+State codes(numbers) to use with the fars_map_state() function together with addtional information can be found [here](http://www.nber.org/fars/ftp.nhtsa.dot.gov/fars/FARS-DOC/Analytical%20User%20Guide/USERGUIDE-2015.pdf)
